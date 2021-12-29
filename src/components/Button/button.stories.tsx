@@ -5,7 +5,7 @@ import { Button } from '.';
 
 export default {
   component: Button,
-  title: 'Pegaline/Buttons',
+  title: 'Pegasys/Buttons',
 };
 
 const TemplateButton: ComponentStory<typeof Button> = (args: any) => <Button {...args}>Button</Button>;
@@ -45,5 +45,5 @@ export const LinkButton = TemplateButton.bind({});
 LinkButton.args = {
   variant: 'primary',
   as: 'a',
-  href: 'https://pegasys.finance/',
+  href: 'https://pegasys.exchange/',
 };

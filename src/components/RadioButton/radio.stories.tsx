@@ -4,7 +4,7 @@ import { RadioButton } from '.';
 
 export default {
   component: RadioButton,
-  title: 'Pegaline/RadioButton',
+  title: 'Pegasys/RadioButton',
 };
 
 const TemplateRadio: ComponentStory<typeof RadioButton> = (args: any) => <RadioButton {...args} />;

@@ -5,11 +5,11 @@ import { DoubleCurrencyLogo } from '.';
 
 export default {
   component: DoubleCurrencyLogo,
-  title: 'Pegaline/DoubleCurrencyLogo',
+  title: 'Pegasys/DoubleCurrencyLogo',
 };
 
-const currency0 = new Token(ChainId.AVALANCHE, '0xf20d962a6c8f70c731bd838a3a388D7d48fA6e15', 18, 'ETH', 'Ether');
-const currency1 = new Token(ChainId.AVALANCHE, '0x60781C2586D68229fde47564546784ab3fACA982', 18, 'PNG', 'Pangolin');
+const currency0 = new Token(ChainId.NEVM, '0x', 18, 'ETH', 'Ether'); //TOOD: add ETH address
+const currency1 = new Token(ChainId.NEVM, '0x', 18, 'PSYS', 'Pegasys'); //TOOD: add PSys address
 
 const TemplateBox: ComponentStory<typeof DoubleCurrencyLogo> = (args: any) => <DoubleCurrencyLogo {...args} />;
 

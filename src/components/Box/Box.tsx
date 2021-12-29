@@ -22,7 +22,7 @@ export interface Props {
 
 export type BoxProps = SpaceProps & LayoutProps & FlexboxProps & TypographyProps & BorderProps & PositionProps;
 
-export const Box = styled.div<BoxProps & Props>`
+const Box = styled.div<BoxProps & Props>`
   color: ${({ color, theme }) => (color ? theme[color] : 'black')};
   background-color: ${({ bgColor, theme }) => (bgColor ? theme[bgColor] : 'transparent')};
   ${space}

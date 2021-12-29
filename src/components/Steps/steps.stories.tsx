@@ -4,7 +4,7 @@ import Steps, { Step } from '.';
 
 export default {
   component: Steps,
-  title: 'Pegaline/Steps',
+  title: 'Pegasys/Steps',
   args: {
     index: 0,
   },

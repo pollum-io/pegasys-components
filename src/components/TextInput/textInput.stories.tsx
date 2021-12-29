@@ -7,7 +7,7 @@ import { TextInput } from '.';
 
 export default {
   component: TextInput,
-  title: 'Pegaline/TextInputs',
+  title: 'Pegasys/TextInputs',
 };
 
 const TemplateTextInput: ComponentStory<typeof TextInput> = (args: any) => <TextInput {...args} />;

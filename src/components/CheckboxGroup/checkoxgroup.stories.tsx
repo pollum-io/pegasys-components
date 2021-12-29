@@ -4,7 +4,7 @@ import { CheckboxGroup } from '.';
 
 export default {
   component: CheckboxGroup,
-  title: 'Pegaline/CheckboxGroup',
+  title: 'Pegasys/CheckboxGroup',
 };
 
 const TemplateCheckboxGroup: ComponentStory<typeof CheckboxGroup> = (args: any) => <CheckboxGroup {...args} />;

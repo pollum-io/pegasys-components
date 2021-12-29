@@ -1,6 +1,6 @@
 {
   "name": "@pollum-io/pegasys-components",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "main": "lib/index.js",
   "module": "lib/index.esm.js",
   "engines": {
@@ -26,7 +26,9 @@
   },
   "author": "Pegasys",
   "license": "ISC",
-  "dependencies": {},
+  "dependencies": {
+    "react-switch": "^6.0.0"
+  },
   "devDependencies": {
     "@babel/core": "^7.15.8",
     "@pollum-io/pegasys-sdk": "latest",
@@ -45,6 +47,7 @@
     "@typescript-eslint/eslint-plugin": "^5.0.0",
     "@typescript-eslint/parser": "^5.0.0",
     "babel-loader": "^8.2.2",
+    "deep-equal": "^2.0.5",
     "eslint": "^8.0.1",
     "eslint-config-airbnb": "^18.2.1",
     "eslint-config-prettier": "^8.3.0",
@@ -57,6 +60,7 @@
     "eslint-plugin-testing-library": "^4.12.4",
     "husky": "^7.0.0",
     "lint-staged": "^11.2.3",
+    "polished": "^4.1.3",
     "prettier": "^2.4.1",
     "prop-types": "^15.7.2",
     "react": "^17.0.2",
