@@ -1,6 +1,6 @@
 {
   "name": "@pollum-io/pegasys-components",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "lib/index.js",
   "module": "lib/index.esm.js",
   "engines": {
@@ -83,7 +83,13 @@
     "react": "17.0.2",
     "react-dom": "17.0.2"
   },
-  "keywords": ["pegasys", "amm", "dex", "syscoin", "nevm"],
+  "keywords": [
+    "pegasys",
+    "amm",
+    "dex",
+    "syscoin",
+    "nevm"
+  ],
   "description": "Components for Pegays Protocol, the leading AMM on Syscoin NEVM.",
   "publishConfig": {
     "access": "public"
